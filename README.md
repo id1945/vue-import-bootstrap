@@ -1,5 +1,24 @@
 # demo
 
+## Create app
+```
+$ npm install -g @vue/cli
+$ vue create vue-import-bootstrap
+```
+
+## Adding Bootstrap to a Vue CLI Project
+```
+npm i bootstrap jquery popper.js
+```
+
+### Add to src/main.js
+````javascript
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import jQuery from 'jquery'
+window.$ = window.jQuery = jQuery
+````
+
 ## Project setup
 ```
 npm install

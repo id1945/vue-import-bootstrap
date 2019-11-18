@@ -14,7 +14,7 @@
           </div>
           <button type="submit">Login</button>
           <button type="button" @click="setColor">Test Jquery</button>
-          <button type="button" data-toggle="popover" data-placement="top" title="Popover on top">Tooltip on top</button> <!-- /Bootstrap Tooltip -->
+          <button type="button" data-toggle="popover" data-placement="top" title="Popover on top">Popover on top</button> <!-- /Bootstrap Popover -->
         </div>
       </div>
     </form>

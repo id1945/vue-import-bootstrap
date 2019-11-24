@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <form @submit.prevent="login">
+    <form @submit.prevent="login" class="jumbotron">
       <div class="row">
         <div class="col-6 m-auto">
           <h2>Login</h2>
@@ -12,9 +12,9 @@
             <label>Password</label>
             <input type="password" class="form-control" v-model="password" placeholder="password">(hint: password123)<br />
           </div>
-          <button type="submit">Login</button>
-          <button type="button" @click="setColor">Test Jquery</button>
-          <button type="button" data-toggle="popover" data-placement="top" title="Popover on top">Popover on top</button> <!-- /Bootstrap Popover -->
+          <button type="submit" class="btn btn-info mr-2">Login</button>
+          <button type="button" class="btn btn-danger mr-2" @click="setColor">Test Jquery</button>
+          <button type="button" class="btn btn-success" data-toggle="popover" data-placement="top" title="Popover on top">Popover on top</button> <!-- /Bootstrap Popover -->
         </div>
       </div>
     </form>
